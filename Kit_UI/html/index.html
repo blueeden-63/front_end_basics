@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon Kit UI</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <!-- Sections pour afficher les atomes -->
+  <section id="colors">
+    <h2>Couleurs</h2>
+    <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+      <div class="primary" style="width: 150px; height: 150px; display: flex; align-items: center; justify-content: center; color: white;">Primary #FF6B35</div>
+      <div class="secondary" style="width: 150px; height: 150px; display: flex; align-items: center; justify-content: center; color: white;">Secondary #004E89</div>
+      <div style="width: 150px; height: 150px; background-color: var(--dark); display: flex; align-items: center; justify-content: center; color: white;">Dark #1A1A1A</div>
+      <div style="width: 150px; height: 150px; background-color: var(--light); border: 1px solid #ccc; display: flex; align-items: center; justify-content: center;">Light #F5F5F5</div>
+    </div>
+  </section>
+  <section id="typography">
+    <h2>Typographie</h2>
+    <h1>H1 - Titre Principal</h1>
+    <h2>H2 - Titre Secondaire</h2>
+    <p>Paragraph normal - Lorem ipsum dolor sit amet.</p>
+    <p class="lead">Lead paragraph - Plus important et visible</p>
+    <blockquote>Citation importante pour mettre en avant</blockquote>
+  </section>
+  <section id="buttons">
+    <h2>Boutons</h2>
+    <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+      <button class="btn btn-primary">Primary</button>
+      <button class="btn btn-outline-primary">Outline Primary</button>
+      <button class="btn btn-primary btn-sm">Small</button>
+      <button class="btn btn-primary btn-lg">Large</button>
+    </div>
+  </section>
+  <section id="forms">
+    <h2>Formulaires</h2>
+    <input type="text" placeholder="Input text" style="margin-bottom: 10px;">
+    <textarea placeholder="Textarea" style="display: block; margin-bottom: 10px; width: 300px; height: 100px;"></textarea>
+    <select style="margin-bottom: 10px;">
+      <option>Select option</option>
+      <option>Option 1</option>
+      <option>Option 2</option>
+    </select>
+  </section>
+  <section id="cards">
+    <h2>Cartes</h2>
+    <div class="card" style="width: 300px;">
+      <h3>Titre de la carte</h3>
+      <p>Description courte du contenu de la carte.</p>
+      <button class="btn btn-primary">Action</button>
+    </div>
+  </section>
+  <section id="lists">
+    <h2>Listes</h2>
+    <ul class="list-group">
+      <li class="list-group-item">Element 1</li>
+      <li class="list-group-item">Element 2</li>
+      <li class="list-group-item">Element 3</li>
+    </ul>
+  </section>
+  <section id="icons" style="padding: 40px;">
+  <h2>Iconographie</h2>
+  <i class="fas fa-heart"></i> <i class="fas fa-star"></i> <i class="fas fa-utensils"></i>
+</section>
+</body>
+</html>
